@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "types": ["bun"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "express": ["node_modules/@types/express"],
+      "express-serve-static-core": ["node_modules/@types/express-serve-static-core"],
+      "sequelize": ["node_modules/sequelize"],
+      "joi": ["node_modules/joi"]
+    }
+  },
+  "include": ["config.ts", "packages/*/src", "packages/*/server.ts", "hosts/*/src", "hosts/*/server.ts", "scripts"],
+  "exclude": ["**/node_modules"]
+}

@@ -1,0 +1,12 @@
+{
+  "sequence": 0,
+  "seed": [
+    {
+      "id": "a829d2d6-8e52-41cd-ac10-0c92b21debcf",
+      "name": "Telco SMS Support",
+      "icon": ":maki:communications-tower:",
+      "type": "SINGLE",
+      "organizationId": "dfb990bb-81dd-4584-82ce-050eb8f6a12f"
+    }
+  ]
+}
